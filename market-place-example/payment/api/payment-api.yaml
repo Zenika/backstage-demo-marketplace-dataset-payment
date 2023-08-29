@@ -13,7 +13,7 @@ metadata:
       icon: code
   annotations:
     backstage.io/adr-location: adrs
-#    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:../../../
 spec:
   type: openapi
   lifecycle: production
@@ -21,4 +21,4 @@ spec:
   consumesApis: [messaging-kafka-connector-api, inventory-api]
   owner: team-payment-1
   definition:
-    $text: https://raw.githubusercontent.com/Zenika/backstage-demo-marketplace-dataset/main/market-place-example/payment/api/payment-api-swagger.json
+    $text: https://raw.githubusercontent.com/Zenika/backstage-demo-marketplace-dataset-payment/main/market-place-example/payment/api/payment-api-swagger.json
